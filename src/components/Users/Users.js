@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Users.css';
 import axios from 'axios';
-import {BE_URL} from './constants';
+import { BE_URL } from './../../general/constants';
 
 class Users extends Component {
   constructor(props) {
